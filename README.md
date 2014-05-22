@@ -14,7 +14,7 @@ Usage:
         }
     
         boolean crop(){
-            FreeImage.crop(left, top, right, bottom, origPath, destPath);
+            return FreeImage.crop(left, top, right, bottom, origPath, destPath);
         }
 
     }    
